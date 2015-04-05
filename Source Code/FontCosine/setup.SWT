@@ -1,0 +1,69 @@
+[Setup Wizard Template]
+TemplateDate=1.1.98 2:17:58 AM
+
+[Select Project and Options]
+txtProjFile=C:\WINDOWS\Desktop\Por\FontCosine\Font Cosine.vbp
+chkProjRebuild=1
+optBldSetup=True
+chkIncludeDEP=0
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=True
+optMultDirTarg=False
+
+[Single Directory]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\WINDOWS\TEMP\SWSETUP\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1="C:\WINDOWS\SYSTEM\PROJECT_EVA.DLL",False,32763,True,False,,,0,False,False
+File2="C:\WINDOWS\Desktop\Por\Eva\Project_eva.dll",True,32760,True,False,,,0,False,False
+File3=
+
+[Confirm Dependencies]
+File1="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,32764
+File2="C:\WINDOWS\SYSTEM\RICHTX32.OCX",True,32764
+File3="C:\WINDOWS\SYSTEM\MSCOMCTL.OCX",True,32764
+File4="C:\WINDOWS\SYSTEM\MSCOMCT2.OCX",True,32764
+File5=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINDOWS\SYSTEM\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\WINDOWS\SYSTEM\RICHTX32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File10="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\RichEd32.dll",True,"$(WinSysPathSysFile)",,False
+File11="C:\WINDOWS\SYSTEM\MSCOMCTL.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File12="C:\WINDOWS\SYSTEM\MSCOMCT2.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\WINDOWS\Desktop\Por\Eva\Project_eva.dll",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File14="C:\WINDOWS\Desktop\Por\FontCosine\FCHELP.HLP",True,"$(AppPath)",,False
+File15="C:\WINDOWS\Desktop\Por\FontCosine\Fontcosine.exe",True,"$(AppPath)",,False
+File16="C:\WINDOWS\Desktop\Por\regt.txi",True,"$(WinSysPath)",,True
+File17="C:\WINDOWS\Desktop\Por\FontCosine\FCHELP.dmp",True,"$(AppPath)",,False
+File18="C:\WINDOWS\Desktop\Por\FontCosine\FChelp.GID",True,"$(AppPath)",,False
+File19="C:\WINDOWS\Desktop\Por\FontCosine\FCHELP.cnt",True,"$(AppPath)",,False

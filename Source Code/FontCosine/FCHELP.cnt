@@ -1,0 +1,41 @@
+:Base .\FChelp.hlp
+:Title Contents
+1 Introducing FontCosine
+2 What is FontCosine?=what_is_font_cosine
+2 FontCosine Features=product_features
+2 Ordering FontCosine=ordering_fontcosine
+2 Ordering Form=order_form
+2 Upgrade Policy=upgrade_policy
+2 Getting Technical Support=tech_support
+1 Quick Help
+2 Create new View=h_t_create_new_view
+2 Close a view=h_t_close_view
+2 Refresh View=h_t_refresh_a_view
+2 Changing Fonts=h_t_work_fonts
+2 Changing Colors=h_t_work_colors
+2 Lock/Unlock View=h_t_lock_view
+2 Sync/UnSync A View=h_t_sync_view
+2 To Clone a View=h_t_clone_view
+2 View Painter=h_t_view_painter?
+2 Copying Formatted Text To Clipboard=h_t_copy_formatted
+2 Copying Unformatted Text To Clipboard=h_t_copy_unformatted
+2 Copying Font Name To Clipboard=h_t_copy_fontname
+2 Refreshing Font List=h_t_refresh_fontlist
+1 Understanding FontCosine
+2 Undestanding The Main Interface=understanding_main_interface
+2 Understanding Views
+3 What is a View?=understanding_views
+3 Changing Font Size =understanding_font_slider
+3 Locking A View=understanding_view_locker
+3 Single Charecter Sub View=understanding_single_subview
+3 Charecter Set Sub View=understanding_set_subview
+3 Sample Text Sub View=understanding_sample_subview
+3 View Sync/Unsync Button=understanding_view_sync
+1 Understanding Fontbox=understanding_fontbox
+1 Understanding Color Pallate=understanding_colors
+1 FontCosine's  Menus=menu_bar
+1 Understanding Toolbar=toolbar
+1 Refrence
+2 Understanding Sync=understanding_sync
+2 Under Standing Option Dailouge=configuring_fc
+2 Configuring FontCosine=configuring_fc

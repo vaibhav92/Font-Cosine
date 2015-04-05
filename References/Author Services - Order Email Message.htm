@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0138)https://www.regsoft.net/vendors/ordermessage.php3?sid=25L3c2954bfa876a2846b99561d945fd56b92e2e5895f356a3i7g5b9g8&productid=39181&state=add -->
+<HTML><HEAD><TITLE>Author Services - Order Email Message</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 5.50.4522.1800" name=GENERATOR></HEAD>
+<BODY background="Author Services - Order Email Message_files/bg.gif"><IMG 
+alt="RegSoft.com - Software Sales and Registration Service" 
+src="Author Services - Order Email Message_files/head3.gif"> <FONT face=arial 
+size=2>
+<FORM onsubmit="return customorderform_Validator(this)" action=ordermessage.php3 
+method=post target=_self><BR>
+<CENTER><BR>
+<H2>Order Email Messages for FontCosine</H2></CENTER>
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=10 width=800 border=0>
+  <TBODY>
+  <TR>
+    <TD>This screen will allow you to define custom order email messages that 
+      will be sent to the user after the purchase button is hit. 1 of 3 things 
+      will happen after the user hits the purchase button. 
+      <OL>
+        <LI>The order will pass all internal checks and pass the credit card 
+        authorization - this order is Coded as <B>Authorized</B> 
+        <LI>The order will pass all internal checks and fail the credit card 
+        authorization - this order is Coded as <B>Declined</B> 
+        <LI>The order will is submitted by the user for Credit Card 
+        authorization - this order is Coded as <B>Submitted Order</B> 
+      </LI></OL>You can create a custom email message from one of these codes. 
+      Each order that is processed is assigned a tracking number (assiged at the 
+      point of purchase) and an order id number (assiged at the point of 
+      Authorization hence only authorized orders get and orderid 
+      number)<BR><BR><B>You can view what each of the standard email messages 
+      and what you can customize by <A target=_blank 
+      href="https://www.regsoft.net/vendors/standardordermessage.php3?productid=39181&amp;sid=25L3c2954bfa876a2846b99561d945fd56b92e2e5895f356a3i7g5b9g8">clicking 
+      here</A>.</B><BR><BR>The following variables are also available for you to 
+      put into the email message. They will be replaced with the actual value. 
+      For example, If the User entered in John Smith as the name on the order 
+      form - you can use $ordername to have it print out in the email 
+      message.<BR><BR>
+      <CENTER>
+      <TABLE border=1>
+        <TBODY>
+        <TR>
+          <TD align=right><B>Serial Number</B><BR><FONT color=red 
+            size=-1><B>Authorized Orders Only</B></FONT> </TD>
+          <TD align=left>$serialnumber<BR><FONT color=red size=-1>Only if 
+            RegSoft.com generates the serial number <B>or</B> <BR>you gave us a 
+            list of serial numbers to use.</FONT></TD></TR>
+        <TR>
+          <TD align=right><B>Your Sales Email Address</B></TD>
+          <TD align=left>$salesemail</TD></TR>
+        <TR>
+          <TD align=right><B>Your Support Email Address</B></TD>
+          <TD align=left>$supportemail</TD></TR>
+        <TR>
+          <TD align=right><B>Your Support URL</B></TD>
+          <TD align=left>$supporturl</TD></TR>
+        <TR>
+          <TD align=right><B>Your Support Phone Number</B></TD>
+          <TD align=left>$supportnumber</TD></TR>
+        <TR>
+          <TD align=right><B>Quantity</B></TD>
+          <TD align=left>$qty</TD></TR>
+        <TR>
+          <TD align=right><B>Order Email</B></TD>
+          <TD align=left>$orderemail</TD></TR>
+        <TR>
+          <TD align=right><B>Name on the CC</B></TD>
+          <TD align=left>$ordername</TD></TR>
+        <TR>
+          <TD align=right><B>Company Name</B></TD>
+          <TD align=left>$ordercompanyname</TD></TR>
+        <TR>
+          <TD align=right><B>Billing Address 1</B></TD>
+          <TD align=left>$orderaddress1</TD></TR>
+        <TR>
+          <TD align=right><B>Billing Address 2</B></TD>
+          <TD align=left>$orderaddress2</TD></TR>
+        <TR>
+          <TD align=right><B>Billing Address 3</B></TD>
+          <TD align=left>$orderaddress3</TD></TR>
+        <TR>
+          <TD align=right><B>Billing City</B></TD>
+          <TD align=left>$ordercity</TD></TR>
+        <TR>
+          <TD align=right><B>Billing State</B></TD>
+          <TD align=left>$orderstate</TD></TR>
+        <TR>
+          <TD align=right><B>Billing Country</B></TD>
+          <TD align=left>$ordercountry</TD></TR>
+        <TR>
+          <TD align=right><B>Billing Zip</B></TD>
+          <TD align=left>$orderzip</TD></TR>
+        <TR>
+          <TD align=right><B>DayTime Phone</B></TD>
+          <TD align=left>$orderphone</TD></TR>
+        <TR>
+          <TD align=right><B>FAX</B></TD>
+          <TD align=left>$orderfax</TD></TR>
+        <TR></TR></TBODY></TABLE></CENTER></TD></TR>
+  <TR>
+    <TD align=right>
+      <CENTER>
+      <TABLE cellSpacing=5 cellPadding=5 width=770 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=right>Order Status Code</TD>
+          <TD align=left><SELECT name=orderstatuscodeid> <OPTION value=1 
+              selected>Authorized<OPTION value=3>Declined<OPTION 
+              value=7>Submitted Order<OPTION value=11>Custom Author 
+              Email</OPTION></SELECT> <BR><FONT color=red size=-1>This is the 
+            Order Statuscode that you will define your email 
+        for.</FONT><BR></TD></TR>
+        <TR>
+          <TD vAlign=top align=right>Email Message To Send</TD>
+          <TD align=left><TEXTAREA name=response rows=10 wrap=VIRTUAL cols=80 maxcols="100">
+</TEXTAREA> </TD></TR>
+        <TR>
+          <TD align=middle colSpan=2><INPUT type=submit value="Save Email" name=submit_orderform> 
+          </TD></TR></TBODY></TABLE><INPUT type=hidden value=39181 name=productid> 
+      <INPUT type=hidden 
+      value=25L3c2954bfa876a2846b99561d945fd56b92e2e5895f356a3i7g5b9g8 name=sid> 
+      <INPUT type=hidden value=add name=state> <INPUT type=hidden 
+      value=listordermessage name=the_action> <INPUT type=hidden 
+      name=orig_languageid> </FORM>
+      <SCRIPT language=javascript>
+<!--
+function customorderform_Validator(f) {
+}
+//-->
+</SCRIPT>
+      </CENTER></TD></TR>
+  <TR>
+    <TD align=middle colSpan=2>
+      <FORM action=redir.php3><INPUT type=hidden 
+      value=listordermessage.php3?sid=25L3c2954bfa876a2846b99561d945fd56b92e2e5895f356a3i7g5b9g8&amp;productid=39181 
+      name=url> <INPUT type=submit value=Cancel name=submit> 
+  </FORM></TD></TR></TBODY></TABLE></CENTER></FONT></BODY></HTML>
